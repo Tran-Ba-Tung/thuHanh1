@@ -10,12 +10,12 @@ public class thucHanh1 {
         String b = "word";
         System.out.println(a + " " + b);
         // bài4
-        String d = inWord("word");
-        System.out.println(a + " " + d);
+        String d = show("hello word");
+        System.out.println(d);
 
     }
 
-    public static String inWord(String d) {
-        return d;
+    public static String show(String t) {
+        return t;
     }
 }
