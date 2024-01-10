@@ -10,12 +10,12 @@ public class thucHanh1 {
         String b = "word";
         System.out.println(a + " " + b);
         // bài4
-        String d = show("hello word");
-        System.out.println(d);
+        String d = a+" "+b;
+        show(d);
 
     }
 
-    public static String show(String t) {
-        return t;
+    public static void show(String t) {
+        System.out.println(t);
     }
 }
